@@ -312,26 +312,6 @@ shl-assessment-recommender/
 
 ---
 
-## 📈 Performance Optimization Journey
-
-### Iteration 1: Baseline (5.3% Recall)
-- Simple substring matching
-- No skill differentiation
-- Equal weights for all matches
-
-### Iteration 2: Enhanced Scoring (20.7% Recall)
-- Weighted scoring (tech: 100, soft: 50)
-- URL normalization
-- Type-based boosting
-
-### Iteration 3: Final Version (20.8% Recall)
-- Multi-language diversification
-- Enhanced keyword variations
-- Optimized balancing ratios
-
-**Key Insight**: Aggressive keyword weighting + intelligent balancing = 4x improvement
-
----
 
 ## 🎓 Test Type Legend
 
@@ -342,28 +322,6 @@ shl-assessment-recommender/
 | **B** | Biodata & SJT | Situational Judgment, Work scenarios |
 | **A** | Ability & Aptitude | Cognitive, Reasoning, Problem-solving |
 | **S** | Simulations | Hands-on tasks, Practical assessments |
-
----
-
-## 🚢 Deployment Guide
-
-### Deploy API to Render.com
-
-1. Create account at https://render.com
-2. New Web Service → Connect GitHub
-3. Configure:
-   - Build: `pip install -r requirements.txt`
-   - Start: `uvicorn fastapi_backend:app --host 0.0.0.0 --port $PORT`
-4. Deploy!
-
-### Deploy Frontend to Streamlit Cloud
-
-1. Go to https://share.streamlit.io
-2. New app → Connect GitHub
-3. Main file: `streamlit_frontend.py`
-4. Deploy!
-
----
 
 ## 📊 Sample Use Cases
 
@@ -438,5 +396,6 @@ For questions about this implementation:
 **⭐ If you found this helpful, please star the repository!**
 
 ---
+
 
 
