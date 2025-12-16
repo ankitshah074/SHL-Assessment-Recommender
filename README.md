@@ -1,5 +1,4 @@
-﻿# SHL Assessment Recommendation System
-# 🎯 SHL Assessment Recommendation System
+# SHL Assessment Recommendation System
 
 AI-powered recommendation system that intelligently matches job requirements with relevant SHL assessments using advanced keyword extraction and scoring algorithms.
 
@@ -429,14 +428,15 @@ For questions about this implementation:
 ## 📸 Screenshots
 
 ### Web Interface
-![Streamlit Frontend](https://via.placeholder.com/800x400?text=Streamlit+Frontend)
+![Streamlit Frontend](https://github.com/ankitshah074/shl-assessment-recommender/blob/main/Streamlit_frontend.png)
 
 ### API Documentation
-![API Docs](https://via.placeholder.com/800x400?text=FastAPI+Interactive+Docs)
+![API Docs](https://github.com/ankitshah074/shl-assessment-recommender/blob/main/API_endpoint.png)
 
 ---
 
 **⭐ If you found this helpful, please star the repository!**
 
 ---
+
 
